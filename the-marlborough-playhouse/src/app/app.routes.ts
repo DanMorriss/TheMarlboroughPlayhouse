@@ -1,15 +1,16 @@
 import { Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { HomePageComponent } from './home-page/home-page.component';
-import { AboutPageComponent } from './about-page/about-page.component';
-import { ContactPageComponent } from './contact-page/contact-page.component';
-import { BookingPageComponent } from './booking-page/booking-page.component';
-import { PrivateHirePageComponent } from './private-hire-page/private-hire-page.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { BookingPageComponent } from './pages/booking-page/booking-page.component';
+import { PrivateHirePageComponent } from './pages/private-hire-page/private-hire-page.component';
+import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 
 export const routes: Routes = [
     { 
         path: '',
-        component: AppComponent,
+        component: LandingPageComponent,
         title: 'The Marlborough Playhouse',
     },
     { 

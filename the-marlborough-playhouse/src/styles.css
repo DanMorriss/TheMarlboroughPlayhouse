@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+html {
+    font-size: 16px; /* Base font size */
+    font-family: "Raleway", sans-serif;
+    color: #545454; /* Text color */
+}
