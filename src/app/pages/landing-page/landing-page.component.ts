@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { SignUpFormComponent } from '../../components/sign-up-form/sign-up-form.component';
 
 @Component({
   selector: 'app-landing-page',
   standalone: true,
-  imports: [],
+  imports: [SignUpFormComponent],
   templateUrl: './landing-page.component.html',
   styleUrl: './landing-page.component.css'
 })
