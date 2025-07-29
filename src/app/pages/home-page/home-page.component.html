@@ -1,21 +1,31 @@
 <app-navbar></app-navbar>
 <div class="flex flex-column align-items-center">
-  <div class="about-page-image">
+  <div class="w-1/2 flex justify-center">
     <img
       src="assets/images/drawn-play-house.svg"
       alt="A hand drawn illustration of The Play House"
-      class="max-h-screen w-auto"
+      class="max-h-screen h-[680px] w-auto"
     />
   </div>
-  <div class="p-4 text-center text-4xl">
+  <div
+    class="text-center text-[24px]/[40px] pt-[100px] max-w-[600px] w-1/2 bg-red-100"
+  >
     <p>
       Marlboroughs First and Only Play Cafe where your little ones can let their
       imaginations run wild.
     </p>
-    <p>
+    <p class="py-[20px]">
       Play Sessions, SEN Sessions, Private Hire plus yummy snacks and drinks
       (including great coffee) available from our cafe.
     </p>
-    <p>Classes, Group and Events coming soon.</p>
+    <p class="italic">Classes, Group and Events coming soon.</p>
   </div>
 </div>
+<div class="relative w-full overflow-x-hidden m-0 p-0">
+  <img
+    src="assets/images/town-background.png"
+    alt="Town Background"
+    class="relative left-1/2 -translate-x-1/2 w-[120vw] max-w-none"
+  />
+</div>
+<app-about-page></app-about-page>
