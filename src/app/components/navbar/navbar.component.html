@@ -1,21 +1,36 @@
 <!-- Desktop Nav -->
-<div class="flex flex-row items-center p-4">
-  <p class="mr-5">The Marlborough Playhouse</p>
-  <ul class="flex flex-row items-center justify-content-between">
-    <li class="mr-4">
-      <a routerLink="/home">Home</a>
+<div class="flex flex-row container">
+  <a routerLink="/home" class="title-link">
+    <img
+      src="assets/logos/title.svg"
+      alt="The Marlborough Playhouse Logo"
+      class="h-[150px] w-auto"
+    />
+  </a>
+  <ul class="flex flex-row items-center justify-content-between list-none">
+    <li class="mr-4 links">
+      <a routerLink="/home"
+        ><img
+          src="assets/logos/home-title.svg"
+          alt="Home"
+          class="h-[50px] w-auto hover:rotate-10 transform transition duration-300"
+      /></a>
     </li>
-    <li class="mr-4">
-      <a routerLink="/about">About</a>
+    <li class="mr-4 links">
+      <a routerLink="/booking"
+        ><img
+          src="assets/logos/booking-title.svg"
+          alt="Booking"
+          class="h-[50px] w-auto hover:rotate-10 transform transition duration-300 mr-[50px]"
+      /></a>
     </li>
-    <li class="mr-4">
-      <a routerLink="/contact">Contact</a>
-    </li>
-    <li class="mr-4">
-      <a routerLink="/booking">Booking</a>
-    </li>
-    <li class="mr-4">
-      <a routerLink="/private-hire">Private Hire</a>
+    <li class="mr-4 links">
+      <a routerLink="/private-hire"
+        ><img
+          src="assets/logos/private-hire-title.svg"
+          alt="Private Hire"
+          class="h-[50px] w-auto hover:rotate-10 transform transition duration-300"
+      /></a>
     </li>
   </ul>
 </div>
